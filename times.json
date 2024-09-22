@@ -1,0 +1,20 @@
+{
+    "categorias": [
+        {
+            "nome": "Futebol",
+            "times": ["Brasil", "Argentina", "França", "Alemanha", "Espanha", "Inglaterra"]
+        },
+        {
+            "nome": "Basquete",
+            "times": ["Lakers", "Warriors", "Celtics", "Bulls", "Nets", "Heat"]
+        },
+        {
+            "nome": "Vôlei",
+            "times": ["Brasil", "Rússia", "Itália", "Polônia", "França", "EUA"]
+        },
+        {
+            "nome": "Tenis",
+            "times": ["Nadal", "Djokovic", "Federer", "Murray", "Thiem", "Zverev"]
+        }
+    ]
+}
