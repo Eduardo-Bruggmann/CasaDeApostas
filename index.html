@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Casa de Apostas</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>Casa de Apostas</h1>
-            <div class="saldo-container">
-                <span>Saldo Atual:</span>
-                <span id="saldo">R$ 10.000,00</span>
-            </div>
-        </header>
+      <header>
+        <h1>Casa de Apostas</h1>
+        <div class="saldo-container">
+          <span>Saldo Atual:</span>
+          <span id="saldo">R$ 10.000,00</span>
+        </div>
+      </header>
 
-        <main>
-            <section class="selecao">
-                <h2>Escolha a Categoria</h2>
-                <select id="categoria" class="input">
-                    <option value="" disabled selected>Selecione a Categoria</option>
-                </select>
+      <main>
+        <section class="selecao">
+          <h2>Escolha a Categoria</h2>
+          <select id="categoria" class="input">
+            <option value="" disabled selected>Selecione a Categoria</option>
+          </select>
 
-                <h2>Escolha os Times</h2>
-                <div class="times">
-                    <select id="time1" class="input" disabled>
-                        <option value="" disabled selected>Selecione o Time 1</option>
-                    </select>
+          <h2>Escolha os Times</h2>
+          <div class="times">
+            <select id="time1" class="input" disabled>
+              <option value="" disabled selected>Selecione o Time 1</option>
+            </select>
 
-                    <select id="time2" class="input" disabled>
-                        <option value="" disabled selected>Selecione o Time 2</option>
-                    </select>
-                </div>
+            <select id="time2" class="input" disabled>
+              <option value="" disabled selected>Selecione o Time 2</option>
+            </select>
+          </div>
 
-                <h2>Em qual time você vai apostar?</h2>
-                <select id="timeAposta" class="input" disabled>
-                    <option value="" disabled selected>Selecione o Time da Aposta</option>
-                </select>
+          <h2>Em qual time você vai apostar?</h2>
+          <select id="timeAposta" class="input" disabled>
+            <option value="" disabled selected>
+              Selecione o Time da Aposta
+            </option>
+          </select>
 
-                <div class="aposta">
-                    <label for="valorAposta">Valor da Aposta:</label>
-                    <input type="number" id="valorAposta" class="input" placeholder="R$ 0,00">
-                </div>
+          <div class="aposta">
+            <label for="valorAposta">Valor da Aposta:</label>
+            <input
+              type="number"
+              id="valorAposta"
+              class="input"
+              placeholder="R$ 0,00"
+            />
+          </div>
 
-                <button id="apostar" class="btn">Apostar</button>
-            </section>
+          <button id="apostar" class="btn">Apostar</button>
+        </section>
 
-            <div id="resultado" class="resultado"></div>
-        </main>
+        <div id="resultado" class="resultado"></div>
+      </main>
 
-        <footer>
-            <p>Desenvolvido por Você</p>
-        </footer>
+      <footer>
+        <p>Divirta-se ;).</p>
+      </footer>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
